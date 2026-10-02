@@ -81,7 +81,7 @@ def main():
     plt.legend()
     plt.tight_layout()
     plt.savefig("histogram_normal.png", dpi=300)
-    plt.show()
+    #plt.show()
 
     # ------------------------------------------------------------
     # 2. P-P plot against normal distribution
@@ -122,7 +122,7 @@ def main():
     plt.grid(alpha=0.3)
     plt.tight_layout()
     plt.savefig("pp_plot.png", dpi=300)
-    plt.show()
+    #plt.show()
 
     # ------------------------------------------------------------
     # 3. Shapiro-Wilk normality test
